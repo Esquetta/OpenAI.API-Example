@@ -7,7 +7,7 @@ IHost host = Host.CreateDefaultBuilder(args)
     {
         services.AddOpenAIService(settings =>
         {
-            settings.ApiKey = "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";
+            settings.ApiKey = "YOU_OPENAI_TOKEN";
         });
         services.AddHostedService<OpenAICompletion>();
         //services.AddHostedService<OpenAIImageService>();
